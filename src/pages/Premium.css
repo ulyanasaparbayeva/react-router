@@ -1,0 +1,53 @@
+
+
+.premium_title {
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.yourElement {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-image: url('../images/hero.jpg');
+    height: 100%; /* for demo purposes, set your desired height */
+    width: 100%;  /* for demo purposes, set your desired width */
+}
+
+.yourElement::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the 0.5 value to increase/decrease the darkness */
+}
+.yourElement {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/hero.jpg');
+    height: 100%; /* for demo purposes, set your desired height */
+    width: 100%;
+}
+
+.premium_text {
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    color: white;
+}
+
+
+.top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 300px;
+}

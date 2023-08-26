@@ -1,0 +1,17 @@
+.lessons_ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    justify-content: space-between;
+}
+.lessons_ul li  a {
+    list-style: none;
+    padding: 0px;
+}
+
+.item a {
+    border: none;
+}
+
